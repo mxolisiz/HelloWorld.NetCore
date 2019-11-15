@@ -83,6 +83,19 @@ namespace HelloWorld
             int GetIndex()=> (word.Length - 1) - testWord.Length;
         }
 
+
+        static bool IsPalindromeSuperFunctionalClean(string word)
+        {
+            string testWord="";
+
+            while(word.Length != testWord.Length)
+                testWord += word[GetIndex()];
+
+            return testWord==word;			
+
+            int GetIndex()=> (word.Length - 1) - testWord.Length;
+        }
+
         
 
     }
