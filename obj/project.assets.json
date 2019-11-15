@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ABMZ198\\Documents\\Visual Studio 2017\\VSCode\\HelloWorld\\HelloWorld.csproj",
+      "projectUniqueName": "C:\\Users\\ABMZ198\\Documents\\GitHub\\HelloWorld.NetCore\\HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "C:\\Users\\ABMZ198\\Documents\\Visual Studio 2017\\VSCode\\HelloWorld\\HelloWorld.csproj",
+      "projectPath": "C:\\Users\\ABMZ198\\Documents\\GitHub\\HelloWorld.NetCore\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\ABMZ198\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ABMZ198\\Documents\\Visual Studio 2017\\VSCode\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\ABMZ198\\Documents\\GitHub\\HelloWorld.NetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

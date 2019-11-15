@@ -9,22 +9,25 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-			string mxo = "Mxo";
+			/*string mxo = "Mxo";
 			string zondi = "Zondi";
 			System.Console.WriteLine(mxo.Equals(zondi));
 			System.Console.WriteLine(mxo == zondi);
 			System.Console.WriteLine(Object.ReferenceEquals(mxo, zondi));
-			return;
-
+			return;*/
             string instruction="Enter a palindrome to test:";
             Debug.WriteLine(instruction);
             Console.WriteLine(instruction);
             string userInput=Console.ReadLine();
-            Console.WriteLine($"\"{userInput.ToUpper()}\" is a palindrome: {IsPalindromeSuperFunctional(userInput).ToString()}");
+            Console.WriteLine($"\"{userInput.ToUpper()}\" is a palindrome: {IsPalindromeAaron(userInput).ToString()}");
         }
+
+        
+        static bool IsPalindromeAaron(string word)=> String.Join("",word.Reverse())==word;
 
         static bool IsPalindrome(string word)
         {
+            
             string testWord="";
             for(int i = word.Length-1 ; i>=0 ;i--)
                 testWord+=word[i];
